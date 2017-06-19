@@ -1,0 +1,28 @@
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
+
+#include <stdint.h>
+#include <stdbool.h>
+
+#define OK 0
+#define FAR
+#define IPTR
+
+#define UNUSED(a) ((void)(a))
+
+#define CONFIG_BUILD_KERNEL
+#define CONFIG_NETUTILS_ESP8266
+
+#define CONFIG_NETUTILS_ESP8266_WORKER_BUF_LEN  256
+#define CONFIG_NETUTILS_ESP8266_THREADPRIO      100
+#define CONFIG_NETUTILS_ESP8266_DEV_PATH        "/dev/ttyUSB0"
+#define CONFIG_SERIAL_TERMIOS
+#define CONFIG_NETUTILS_ESP8266_BAUDRATE        B115200
+
+#define CONFIG_EXAMPLES_MQTT_SERV_IP   "183.230.40.39"
+#define CONFIG_EXAMPLES_MQTT_SERV_PORT  6002
+#define CONFIG_EXAMPLES_MQTT_SSID      "CMCC-IOT"
+#define CONFIG_EXAMPLES_MQTT_PASSWORD  "IOT@Chinamobile"
+
+
+#endif

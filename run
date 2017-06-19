@@ -1,0 +1,8 @@
+
+./mqtt_main.exe newtopic --clientid 6301939 --username 86338 --password ubuntu
+#./mqtt_main.exe topic123 --host jjfaedp.hedevice.com --port 6002 --clientid 6301939 --username 86338 --password ubuntu
+#./mqtt_main.exe topic123 --host jjfaedp.hedevice.com --port 6002 --clientid 6301939 --username 86338 --password ubuntu --qos 2
+
+#mqtt topic123 --clientid 6301939 --username 86338 --password ubuntu --qos 2
+#mqtt topic123 --host jjfaedp.hedevice.com --port 6002 --clientid 6301939 --username 86338 --password ubuntu
+
